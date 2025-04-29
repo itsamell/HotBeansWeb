@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Web Developers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: black;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #2e574c;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        .logo {
+            font-size: 1.5em;
+        }
+
+        .navbar {
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav-item a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav-item a.active {
+            font-weight: bold;
+        }
+
+        .btn{
+            display: inline-block;
+            background: #f9a825;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .button:hover{
+            background-color: #0f756d;
+        }
+
+        .hero-section {
+            text-align: center;
+            padding: 40px 20px;
+            background: #2e574c;
+            color: white;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            justify-content: center;
+            background: #f9f9f9;
+        }
+
+        .card {
+            background: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            color: #124433; 
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            background-color: #f0f0f0;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background: #2e574c;
+            color: white;
+        }
+
+        #back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px;
+            background: #2e574c;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            display: none;
+        }
+    </style>
+</head>
+ 
+<body>
+    <div class="header">
+        <div class="logo">☕ Hot Coffee Beans</div>
+        <div class="navbar">
+            <div class="nav-item"><a href="index.html">Home</a></div>
+            <div class="nav-item"><a href="about.html">About</a></div>
+            <div class="nav-item"><a href="webdevelopers.html" class="active">Web Developers</a></div>
+            <div class="nav-item"><a href="jobs.html">Web Dev Jobs</a></div>
+            <div class="nav-item"><a href="apply.html">Apply</a></div>
+            <div class="nav-item"><a href="course.html">Course</a></div>
+        </div>
+    </div>
+
+    <div class="hero-section">
+        <h2>Meet Our Developers!</h2>
+        <p>We build websites that matter.</p>
+        <a href="about.html" class="btn">Learn More</a>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Our Mission</h3>
+            <p>Empower businesses and nurture future developers to create robust digital experiences.</p>
+        </div>
+        <div class="card">
+            <h3>Join Us</h3>
+            <p>Grow your career with Coffee Beans, where ideas flourish and innovation leads the way.</p>
+            <a href="apply.html" class="btn">Apply Now!</a>
+        </div>
+    </div>
+    <div class="goals" id="goal-section">
+        <h3>Our Web Developers</h3>
+        <p>
+            At Coffee Beans, we're passionate creators and innovators building cutting-edge digital experiences. 
+            Web development involves designing, coding, and maintaining websites using programming languages like HTML, CSS, and JavaScript. 
+            Developers ensure functionality, responsiveness, and seamless user experiences while collaborating on innovative solutions.
+        </p>
+    </div>
+    <div class="goals" id="goal-section">
+            <p>
+                Our team thrives on teamwork, embracing new technologies, and finding solutions to challenging problems. 
+                If you're ready to be part of a team that values your ideas and expertise, join us!
+            </p>
+            <p>
+                Introducing our exceptional web developers, the driving force behind our team's success and resilience in meeting its goals.
+            </p>
+    </div>
+    </div>
+    </div>
+    <div class="cards">
+        <div class="card">
+            <h3>Ben Dover - Front-End Expert</h3>
+            <p>John specializes in creating responsive and visually stunning interfaces. With expertise in HTML, CSS, and React, he ensures seamless user experiences for every project.</p>
+             <img src="john.jpg">
+        </div>
+        <div class="card">
+            <h3>Jane Doe - Back-End Guru</h3>
+            <p>Jane masters server-side logic and database management. She’s skilled Python and, delivering robust and scalable solutions.</p>
+            <img src="jane.jpg">      
+        </div>
+        <div class="card">
+            <h3>Ali Khan - Full-Stack Innovator</h3>
+            <p>Ali bridges the gap between front-end design and back-end functionality. His versatility and problem-solving skills make him an invaluable asset to the team.</p>
+            <img src="ayeeeeeeeeeee.jpg">
+        </div>
+        <div class="card">
+            <h3>Maria Garcia - UX/UI Designer</h3>
+            <p>Maria designs intuitive user interfaces and user experiences that captivate audiences. Her creativity ensures every product is visually appealing and easy to navigate.</p>
+            <img src="marcia.jpg">
+        </div>
+        <div class="card">
+            <h3>David Chen - DevOps Specialist</h3>
+            <p>David streamlines development workflows with automation tools. His expertise in cloud services and CI/CD practices ensures projects are delivered efficiently.</p>
+            <img src="david.jpg">
+        </div>
+    </div>
+  
+
+    <footer class="footer">
+        <p>&copy; 2025 Coffee Beans, All Rights Reserved</p>
+    </footer>
+</body>
+ 
+</html>
